@@ -1,0 +1,88 @@
+header{
+    display: block;
+    background-color: black;
+    color: white;
+    width:100%;
+    padding-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 2%;
+}
+
+header h1{
+    text-transform: uppercase;
+    text-align: left;
+    width:30%;
+    display:inline-block;
+    margin-top: -2%;
+}
+
+header nav{
+    text-align: right;
+    display:inline-block;
+    width:60%;
+}
+
+header ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: -80px;
+    text-align: center;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 0.6em;
+}
+
+header ul li a:hover{
+    background-color: #B8B799;
+    border-color: #B8B799;
+}
+
+header ul li a:active{
+    padding: 0.2em;
+}
+
+section{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 20%;
+    height: 350px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.text-design{
+    margin-top: -35%;
+}
+
+.text{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 180%;
+    margin-left: -15%;
+}
+
+.bigBox{
+    width: 80%;
+    height: 400px;
+    background-color: black;
+}
